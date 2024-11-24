@@ -46,10 +46,10 @@ To get a local copy of the project up and running, follow these steps:
 
    ```bash
    npm install
-
    ```
 
 4. Create a `.env` file in the root of your project and add your Firebase configuration:
+
    ```env
    REACT_APP_API_KEY=your_api_key
    REACT_APP_AUTH_DOMAIN=your_auth_domain
@@ -63,9 +63,8 @@ To get a local copy of the project up and running, follow these steps:
 
 1. Start the development server:
 
-   ```npm
+   ```bash
    npm run dev
-
    ```
 
 2. Open your browser and navigate to `http://localhost:3000`.
@@ -79,6 +78,19 @@ To get a local copy of the project up and running, follow these steps:
 - **Export Data**: Export your financial data to a CSV file.
 - **Import Data**: Import your financial data from a CSV file.
 
+## Demo
+
+Here are some screenshots of the **Financely** application:
+
+### Demo 1: Dashboard Overview
+![Demo 1](public/demo_1.png)
+
+### Demo 2: Income & Expense Tracker
+![Demo 2](public/demo_2.png)
+
+### Demo 3: Investment Tracker
+![Demo 3](public/demo_3.png)
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly welcome.
@@ -89,4 +101,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to me at nainee909@gmail.com.
+If you have any questions or suggestions, feel free to reach out to me at [nainee909@gmail.com](mailto:nainee909@gmail.com).
+
