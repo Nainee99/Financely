@@ -1,0 +1,40 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--theme);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.navbar-heading {
+  color: #fff;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 1.2rem;
+}
+.navbar-link {
+  color: #e3e3e3;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.navbar-link:hover {
+  color: #fff;
+  transition: all 0.3s;
+}
+.profile-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.profile-icon {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
